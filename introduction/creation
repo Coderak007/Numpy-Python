@@ -1,0 +1,6 @@
+# creating arrays from python lists
+# we can create arrays from python lists and tuples by using the array() function of numpy module. The array() function takes a sequence like list, tuple or any array as an argument and returns an array object.
+
+import numpy as np
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
